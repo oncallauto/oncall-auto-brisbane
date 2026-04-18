@@ -33,11 +33,11 @@ export default function CTABanner() {
           </div>
           <div className="flex flex-col sm:flex-row gap-3 flex-shrink-0">
             <a
-              href="tel:0412345678"
+              href="tel:0434673682"
               className="inline-flex items-center justify-center gap-2 bg-white text-[#0284c7] hover:bg-slate-100 font-bold text-base px-6 py-3.5 rounded-lg transition-colors duration-150 shadow-lg"
             >
               <Phone className="w-5 h-5" />
-              0412 345 678
+              0434 673 682
             </a>
             <button
               onClick={scrollToContact}

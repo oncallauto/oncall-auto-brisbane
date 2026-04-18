@@ -67,12 +67,12 @@ export default function Navbar() {
 
         {/* CTA phone */}
         <div className="hidden lg:flex items-center gap-3">
-          <a
-            href="tel:0412345678"
-            className="flex items-center gap-2 bg-[#0284c7] hover:bg-[#0369a1] text-white font-bold text-sm px-4 py-2.5 rounded-lg transition-colors duration-150"
-          >
-            <Phone className="w-4 h-4" />
-            0412 345 678
+            <a
+              href="tel:0434673682"
+              className="flex items-center gap-2 bg-[#0284c7] hover:bg-[#0369a1] text-white font-bold text-sm px-4 py-2.5 rounded-lg transition-colors duration-150"
+            >
+              <Phone className="w-4 h-4" />
+              0434 673 682
           </a>
         </div>
 
@@ -100,11 +100,11 @@ export default function Navbar() {
               </button>
             ))}
             <a
-              href="tel:0412345678"
+              href="tel:0434673682"
               className="mt-2 flex items-center justify-center gap-2 bg-[#0284c7] text-white font-bold text-sm px-4 py-3 rounded-lg"
             >
               <Phone className="w-4 h-4" />
-              Call Now: 0412 345 678
+              Call Now: 0434 673 682
             </a>
           </nav>
         </div>

@@ -69,11 +69,11 @@ export default function HeroSection() {
           {/* CTAs */}
           <div className="flex flex-wrap gap-3 mb-10 fade-up fade-up-delay-4">
             <a
-              href="tel:0412345678"
+              href="tel:0434673682"
               className="inline-flex items-center gap-2 bg-[#0284c7] hover:bg-[#0369a1] text-white font-bold text-base px-6 py-3.5 rounded-lg transition-all duration-200 shadow-lg hover:shadow-[#0284c7]/30 hover:shadow-xl"
             >
               <Phone className="w-5 h-5" />
-              Call Now: 0412 345 678
+              Call Now: 0434 673 682
             </a>
             <button
               onClick={() => scrollTo("#contact")}

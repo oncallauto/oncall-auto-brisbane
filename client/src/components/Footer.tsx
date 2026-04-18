@@ -107,22 +107,22 @@ export default function Footer() {
             </h4>
             <div className="space-y-3">
               <a
-                href="tel:0412345678"
+                href="tel:0434673682"
                 className="flex items-center gap-2 text-slate-300 hover:text-[#38bdf8] text-sm transition-colors"
               >
                 <Phone className="w-4 h-4 text-[#0284c7] flex-shrink-0" />
-                0412 345 678
+                0434 673 682
               </a>
               <a
-                href="mailto:info@oncallautobrisbane.com.au"
+                href="mailto:oncallautobrisbane@gmail.com"
                 className="flex items-center gap-2 text-slate-300 hover:text-[#38bdf8] text-sm transition-colors"
               >
                 <Mail className="w-4 h-4 text-[#0284c7] flex-shrink-0" />
-                info@oncallautobrisbane.com.au
+                oncallautobrisbane@gmail.com
               </a>
               <div className="flex items-start gap-2 text-slate-300 text-sm">
                 <MapPin className="w-4 h-4 text-[#0284c7] flex-shrink-0 mt-0.5" />
-                Greater Brisbane & Surrounding Suburbs
+                Runcorn, Brisbane & Surrounding Suburbs
               </div>
               <div className="flex items-start gap-2 text-slate-300 text-sm">
                 <Phone className="w-4 h-4 text-[#0284c7] flex-shrink-0 mt-0.5" />

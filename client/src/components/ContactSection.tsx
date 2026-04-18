@@ -88,8 +88,8 @@ export default function ContactSection() {
                 {
                   icon: Mail,
                   label: "Email",
-                  value: "info@oncallautobrisbane.com.au",
-                  href: "mailto:info@oncallautobrisbane.com.au",
+                  value: "oncallautobrisbane@gmail.com",
+                  href: "mailto:oncallautobrisbane@gmail.com",
                 },
                 {
                   icon: Clock,

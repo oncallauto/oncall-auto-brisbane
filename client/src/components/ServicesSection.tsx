@@ -152,10 +152,10 @@ export default function ServicesSection() {
             Not sure if we cover your issue? Give us a call — we're happy to help.
           </p>
           <a
-            href="tel:0412345678"
+            href="tel:0434673682"
             className="inline-flex items-center gap-2 bg-[#0f2744] hover:bg-[#0284c7] text-white font-bold px-8 py-3.5 rounded-lg transition-colors duration-200"
           >
-            Call 0412 345 678
+            Call 0434 673 682
           </a>
         </div>
       </div>

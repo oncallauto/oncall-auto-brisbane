@@ -85,11 +85,11 @@ export default function ServiceAreaSection() {
                 our best to get to you.
               </p>
               <a
-                href="tel:0412345678"
+                href="tel:0434673682"
                 className="inline-flex items-center gap-2 bg-[#0284c7] hover:bg-[#0369a1] text-white font-bold text-sm px-5 py-2.5 rounded-lg transition-colors duration-150"
               >
                 <MapPin className="w-4 h-4" />
-                Call 0412 345 678
+                Call 0434 673 682
               </a>
             </div>
           </div>
