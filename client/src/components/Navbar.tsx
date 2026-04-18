@@ -3,7 +3,7 @@
  * Behaviour: Shrinks + adds shadow on scroll; hamburger menu on mobile
  */
 import { useState, useEffect } from "react";
-import { Menu, X, Phone, Wrench } from "lucide-react";
+import { Menu, X, Phone } from "lucide-react";
 
 const NAV_LINKS = [
   { label: "Services", href: "#services" },
@@ -45,17 +45,11 @@ export default function Navbar() {
           className="flex items-center gap-2 group"
           onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: "smooth" }); }}
         >
-          <div className="w-9 h-9 rounded-lg bg-[#0284c7] flex items-center justify-center flex-shrink-0">
-            <Wrench className="w-5 h-5 text-white" />
-          </div>
-          <div className="leading-tight">
-            <span className="block font-heading font-700 text-white text-lg leading-none tracking-wide">
-              On Call Auto
-            </span>
-            <span className="block text-[#38bdf8] text-xs font-semibold tracking-widest uppercase">
-              Brisbane
-            </span>
-          </div>
+          <img
+            src="https://d2xsxph8kpxj0f.cloudfront.net/310519663571735821/G5xkLg2SpnwhLXRARKTRti/logo-oncall-BmXjZpRGJpUTBynbshcPtc.webp"
+            alt="On Call Auto Brisbane Logo"
+            className="w-10 h-10 flex-shrink-0"
+          />
         </a>
 
         {/* Desktop nav */}

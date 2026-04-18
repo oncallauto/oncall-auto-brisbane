@@ -1,7 +1,7 @@
 /*
  * DESIGN: Clean Coastal Authority – Deep navy footer, white/slate text
  */
-import { Phone, Mail, MapPin, Wrench, Facebook, Instagram } from "lucide-react";
+import { Phone, Mail, MapPin, Facebook, Instagram } from "lucide-react";
 
 const QUICK_LINKS = [
   { label: "Services", href: "#services" },
@@ -34,17 +34,11 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-9 h-9 rounded-lg bg-[#0284c7] flex items-center justify-center">
-                <Wrench className="w-5 h-5 text-white" />
-              </div>
-              <div>
-                <div className="font-heading font-700 text-white text-lg leading-none">
-                  On Call Auto
-                </div>
-                <div className="text-[#38bdf8] text-xs font-semibold tracking-widest uppercase">
-                  Brisbane
-                </div>
-              </div>
+              <img
+                src="https://d2xsxph8kpxj0f.cloudfront.net/310519663571735821/G5xkLg2SpnwhLXRARKTRti/logo-oncall-BmXjZpRGJpUTBynbshcPtc.webp"
+                alt="On Call Auto Brisbane Logo"
+                className="w-10 h-10"
+              />
             </div>
             <p className="text-slate-400 text-sm leading-relaxed mb-5">
               Brisbane's trusted mobile mechanic. We come to your home, workplace, or roadside —
