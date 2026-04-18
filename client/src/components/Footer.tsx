@@ -35,7 +35,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <img
-                src="https://d2xsxph8kpxj0f.cloudfront.net/310519663571735821/G5xkLg2SpnwhLXRARKTRti/logo-oncall-BmXjZpRGJpUTBynbshcPtc.webp"
+                src="/images/logo-oncall.webp"
                 alt="On Call Auto Brisbane Logo"
                 className="w-10 h-10"
               />

@@ -46,7 +46,7 @@ export default function Navbar() {
           onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: "smooth" }); }}
         >
           <img
-            src="https://d2xsxph8kpxj0f.cloudfront.net/310519663571735821/G5xkLg2SpnwhLXRARKTRti/logo-oncall-BmXjZpRGJpUTBynbshcPtc.webp"
+            src="/images/logo-oncall.webp"
             alt="On Call Auto Brisbane Logo"
             className="w-10 h-10 flex-shrink-0"
           />

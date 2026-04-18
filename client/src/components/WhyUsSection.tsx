@@ -79,7 +79,7 @@ export default function WhyUsSection() {
           <div className="relative">
             <div className="rounded-2xl overflow-hidden shadow-2xl shadow-black/40">
               <img
-                src="https://d2xsxph8kpxj0f.cloudfront.net/310519663571735821/G5xkLg2SpnwhLXRARKTRti/service-van-dDYxcbzigmANRCjHqkZH3Y.webp"
+                src="/images/service-van.webp"
                 alt="On Call Auto Brisbane fully equipped service van"
                 className="w-full object-cover"
                 style={{ maxHeight: "520px" }}

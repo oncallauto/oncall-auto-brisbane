@@ -35,9 +35,9 @@ export default function AboutSection() {
           {/* Image column */}
           <div className="relative">
             <div className="rounded-2xl overflow-hidden shadow-2xl">
-              <img
-                src="https://d2xsxph8kpxj0f.cloudfront.net/310519663571735821/G5xkLg2SpnwhLXRARKTRti/about-mechanic-FQCCVVRgAcZsyoUjh85iEc.webp"
-                alt="On Call Auto Brisbane mechanic with service van"
+            <img
+              src="/images/about-mechanic.webp"
+              alt="On Call Auto Brisbane mechanic with service van"
                 className="w-full h-full object-cover"
                 style={{ maxHeight: "520px" }}
               />

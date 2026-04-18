@@ -29,7 +29,7 @@ export default function HeroSection() {
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
           backgroundImage:
-            "url('https://d2xsxph8kpxj0f.cloudfront.net/310519663571735821/G5xkLg2SpnwhLXRARKTRti/hero-mechanic-LDeu8kdnv5mdCYSzo2r2JE.webp')",
+            "url('/images/hero-mechanic.webp')",
         }}
       />
       {/* Gradient overlay – dark navy left, semi-transparent right */}
