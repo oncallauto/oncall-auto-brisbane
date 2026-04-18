@@ -74,11 +74,11 @@ export default function ContactSection() {
                 For same-day service or emergency breakdowns, calling is the fastest way to reach us.
               </p>
               <a
-                href="tel:0412345678"
+                href="tel:0434673682"
                 className="flex items-center gap-3 bg-[#0284c7] hover:bg-[#0369a1] text-white font-bold text-lg px-5 py-3.5 rounded-lg transition-colors duration-150"
               >
                 <Phone className="w-5 h-5" />
-                0412 345 678
+                0434 673 682
               </a>
             </div>
 
