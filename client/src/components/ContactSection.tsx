@@ -2,9 +2,10 @@
  * DESIGN: Clean Coastal Authority – White bg, 2-col layout (contact info left, form right)
  * Form with clear field focus states, same-day service emphasis
  */
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Phone, Mail, Clock, MapPin, CheckCircle2, Send } from "lucide-react";
 import { toast } from "sonner";
+import emailjs from "@emailjs/browser";
 
 const SERVICES_LIST = [
   "Logbook Servicing",
@@ -30,6 +31,11 @@ export default function ContactSection() {
     preferredDate: "",
   });
   const [submitted, setSubmitted] = useState(false);
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    emailjs.init("8Rw_9Qs2P5V8kL9mN3X2Y");
+  }, []);
 
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>
@@ -37,14 +43,33 @@ export default function ContactSection() {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!form.name || !form.phone || !form.service) {
       toast.error("Please fill in your name, phone, and service type.");
       return;
     }
-    setSubmitted(true);
-    toast.success("Booking request sent! We'll call you back shortly.");
+
+    setLoading(true);
+    try {
+      await emailjs.send("service_oncall_brisbane", "template_oncall_booking", {
+        to_email: "oncallautobrisbane@gmail.com",
+        customer_name: form.name,
+        customer_phone: form.phone,
+        customer_email: form.email || "Not provided",
+        customer_suburb: form.suburb || "Not provided",
+        service_type: form.service,
+        preferred_date: form.preferredDate || "Not specified",
+        car_details: form.message || "No details provided",
+      });
+      setSubmitted(true);
+      toast.success("Booking request sent! We'll call you back shortly.");
+    } catch (error) {
+      console.error("Email send failed:", error);
+      toast.error("Failed to send booking. Please call us directly at 0434 673 682.");
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
