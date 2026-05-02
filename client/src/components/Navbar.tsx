@@ -12,6 +12,7 @@ const NAV_LINKS = [
   { label: "Service Area", href: "#service-area" },
   { label: "Testimonials", href: "#testimonials" },
   { label: "Contact", href: "#contact" },
+  { label: "🛒 Shop", href: "/shop.html" },
 ];
 
 export default function Navbar() {
